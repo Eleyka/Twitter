@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Twitter</h1>
+  </header>
+  <section>
+    <div class="description">
+      <h2>Reto de Código</h2>
+      <span>Hola,
+        <br> front-end developer jr.</span>
+      <p>Alumna: Ramírez De la Cruz, Eleyne Karina</p>
+    </div>
+
+    <form>
+      <div class="input-wrapper">
+
+        <textarea rows='1' type="text" name="name" id="name" placeholder="¿Qué estas pensando?" onkeyup="validar(); cuenta();"></textarea>
+      </div>
+
+      <input type="submit" name="save" value="TWEET" id="save" disabled="disabled" />
+      <input type=="text" id="mostrar-caracteres" name="mostrar-caracteres" size="1" placeholder="140">
+    </form>
+    <div>
+      <ul id="container-contact">
+      </ul>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
